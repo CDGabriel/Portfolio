@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Space Grotesk", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #d5cae4, #e59462);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 43.75rem;
+  position: absolute;
+}
+
+.btn-container img {
+  height: 20px;
+}
+
+.container h1 {
+  margin-bottom: 2.5rem;
+  position: relative;
+  font-size: 2rem;
+  color: #e59462;
+}
+
+.container h1::after {
+  content: "";
+  width: 5rem;
+  height: 3px;
+  border-radius: 3px;
+  background: #e59462;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quote blockquote::before,
+.quote blockquote::after {
+  content: '"';
+}
+
+.quote span {
+  display: block;
+  margin-top: 0.8rem;
+  float: right;
+  position: relative;
+  color: #e59462;
+}
+
+.quote span::before {
+  content: "";
+  width: 1.2rem;
+  height: 2px;
+  background: #e59462;
+  position: absolute;
+  top: 50%;
+  left: -1.9rem;
+}
+
+.quote blockquote {
+  color: #e59462;
+}
+
+.btn-container {
+  width: 100%;
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button {
+  width: 9.8rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.4rem;
+}
+
+.btn-container .gen-quote {
+  color: #e59462;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: #e59462 solid 2px;
+  cursor: pointer;
+}
+
+.btn-container .gen-quote:hover {
+  border: 4px #e59462 dotted;
+  transition: 0.1s;
+}
+
+.btn-container .gen-quote:active {
+  border: 3px #e59462 double;
+}
+
+.btn-container .tweet {
+  background-color: #cfb2f8;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  border: #cfb2f8 solid 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.tweet img {
+  display: none;
+}
+
+.tweet:hover {
+  color: rgb(120, 163, 255);
+}
+
+.tweet:hover img {
+  display: block;
+}
+
+.tweet:active {
+  background-color: transparent;
+}/*# sourceMappingURL=quote.css.map */
