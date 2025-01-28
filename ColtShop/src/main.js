@@ -1,0 +1,22 @@
+import { createApp } from "vue";
+import FemaleClothes from "./components/FemaleClothes.vue";
+import MaleClothes from "./components/MaleClothes.vue";
+import Footer from "./components/Footer.vue";
+import App from "./App.vue";
+import Navbar from "./components/Navbar.vue";
+import Header from "./components/Header.vue";
+import { body } from "../variables";
+import ShopCart from "./components/ShopCart.vue";
+import MaleAccessories from "./components/MaleAccessories.vue";
+import FemaleAccessories from "./components/FemaleAccessories.vue";
+
+const app = createApp(App);
+app.component("Navbar", Navbar);
+app.component("Header", Header);
+app.component("ShopCart", ShopCart);
+app.component("Footer", Footer);
+app.component("FemaleClothes", FemaleClothes);
+app.component("MaleClothes", MaleClothes);
+app.component("MaleAccessories", MaleAccessories);
+app.component("FemaleAccessories", FemaleAccessories);
+app.mount("#app");
