@@ -2,8 +2,8 @@ from rembg import remove
 from PIL import Image
 
 
-input_path =  r'C:\Users\gabri\OneDrive\Desktop\Python\popsandsoftime.png'
-output_path = r'C:\Users\gabri\OneDrive\Desktop\Python\popsandsoftimeoutput.png'
+input_path =  r':\PathToImage'
+output_path = r':\OutputPathToImage'
 
 input = Image.open(input_path)
 output = remove(input)
