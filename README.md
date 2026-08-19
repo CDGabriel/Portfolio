@@ -11,7 +11,8 @@
 <img width="1910" height="940" alt="Screenshot 2026-07-26 175701" src="https://github.com/user-attachments/assets/34b75f7f-f9c5-4d65-9e2e-9a8d9a16ef5c" />
 <img width="1908" height="938" alt="Screenshot 2026-07-26 175629" src="https://github.com/user-attachments/assets/84b5bdf5-92dc-45d1-ab9f-ab427a4e0b8b" />
 <h1>Navlife</h1>
+<img width="1891" height="944" alt="Screenshot 2026-07-26 175823" src="https://github.com/user-attachments/assets/ba0abdff-e1e7-4f48-95f5-a5d057707261" />
 <img width="1889" height="942" alt="Screenshot 2026-07-26 175846" src="https://github.com/user-attachments/assets/3a22a5ab-1ccc-404c-9fe1-74fc029793a9" />
 <img width="1894" height="937" alt="Screenshot 2026-07-26 175903" src="https://github.com/user-attachments/assets/6318bf69-0077-4fb5-9cf4-245441030ca9" />
 <img width="1889" height="936" alt="Screenshot 2026-07-26 175913" src="https://github.com/user-attachments/assets/a4be00de-7944-4e58-9d17-1b96b7a6a727" />
-<img width="1891" height="944" alt="Screenshot 2026-07-26 175823" src="https://github.com/user-attachments/assets/ba0abdff-e1e7-4f48-95f5-a5d057707261" />
+
